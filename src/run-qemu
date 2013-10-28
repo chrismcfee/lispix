@@ -1,0 +1,4 @@
+#! /bin/bash
+qemu -no-kqemu -cpu pentium3 \
+	-fda floppy.img -hda hda.bin -boot a \
+	-m 32 -soundhw sb16
